@@ -62,18 +62,11 @@ Prints top important features
   - Test accuracy: ~0.74
   - Mean CV accuracy: ~0.72 ± 0.02
 
-The integrated model was consistently more accurate than the
-single-omics baseline, suggesting that copy-number data provides
-complementary information to gene expression for subtype prediction.
-
----
 
 ## Takeaways
 
 - Even a simple classical ML model (logistic regression) can benefit from
   combining multiple -omics modalities.
-- Column-name prefixes (like `rs_`, `cn_`, `mu_`, `pp_`) make it easy to
-  separate -omics blocks in a single wide table.
 - This "mini integrator" can be extended with more advanced feature selection
   or deep learning, but it already shows the core idea of multi-omics
   integration for precision oncology.
