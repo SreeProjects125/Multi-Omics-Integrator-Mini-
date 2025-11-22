@@ -1,0 +1,15 @@
+# Mini Multi-Omics Integrator 🧬
+
+This notebook is a small end-to-end project that integrates multiple -omics data
+(gene expression, copy-number, mutations, protein) to classify breast cancer subtypes
+using a real multi-omics dataset (TCGA BRCA, via Kaggle).
+
+**Goals:**
+1. Load a real multi-omics dataset.
+2. Separate features by omics type using column-name prefixes.
+3. Train a baseline model using a single omics type.
+4. Train an integrated model using multiple omics types together.
+5. Compare performance and interpret which omics contribute most.
+
+This is intentionally "mini": it uses classical machine learning and basic feature
+selection to make the analysis approachable for a high school level.
