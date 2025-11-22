@@ -1,0 +1,7 @@
+# Path to the Kaggle multi-omics dataset
+DATA_PATH = "data.csv"  # change if needed
+
+df = pd.read_csv(DATA_PATH)
+
+print("Shape:", df.shape)
+df.head()
