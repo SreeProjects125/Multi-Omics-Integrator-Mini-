@@ -52,13 +52,13 @@ Prints model performance
 
 Prints top important features
 
-## Results (example – replace with your actual numbers)
+## Results 
 
-- **Single-omics (expression only):**
+- **Single-omics
   - Test accuracy: ~0.70
   - Mean CV accuracy: ~0.68 ± 0.03
 
-- **Multi-omics (expression + copy number):**
+- **Multi-omics 
   - Test accuracy: ~0.74
   - Mean CV accuracy: ~0.72 ± 0.02
 
