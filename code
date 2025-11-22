@@ -1,1 +1,9 @@
 please reach out to me for rest of the code
+
+Loads the Kaggle dataset (data.csv)
+Splits omics layers by prefixes (rs_, cn_, mu_, pp_)
+Builds single-omics and integrated models
+Runs train/test evaluation
+Runs 5-fold cross-validation
+Prints model performance
+Prints top important features
