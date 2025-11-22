@@ -37,7 +37,20 @@ patient.
    - 5-fold cross-validation to estimate mean accuracy and variability.
    - Classification report and confusion matrix for both models.
 
----
+####
+Loads the Kaggle dataset (data.csv)
+
+Splits omics layers by prefixes (rs_, cn_, mu_, pp_)
+
+Builds single-omics and integrated models
+
+Runs train/test evaluation
+
+Runs 5-fold cross-validation
+
+Prints model performance
+
+Prints top important features
 
 ## Results (example – replace with your actual numbers)
 
